@@ -14,11 +14,76 @@
     
     <div id="nav"></div>
     <div>
+        <img id="mainImg" src="image/main.png"/>
+        <div id="content">
+            <h2>조선 제일의 법궁</h2>
+            <p>"하늘이 내린 큰 북"</p>
+            <div id="text">
+                조선왕조 개국 4년째인 1395년에 처음으로 세운 으뜸 궁궐이다.<br/>
+                1592년 임진왜란 때 소실되어 275년간 방치되다가 19세기에 흥선대원군 주도로 중건되었다. <br/>
+                당시에는 7천여 칸이라는 거대한 규모를 자랑하는 건축물로 거듭났었지만 <br/>
+                구한말과 일제강점기를 거치며 수천 칸의 전각이 헐리고 매각되며 조선총독부 청사와 같은 <br/>
+                다른 건물이 들어서는 등 궐내가 크게 훼손되었다. <br/>
+                1990년에 이르러서는 고작 36동의 건물(고종 재위 당시의 7% 수준)만 남았고 지금도 계속 <br/>
+                복원이 이루어지고 있다.
+            </div>
+        </div>
+
+        <div id="figure">
+            <h1>경복궁의 옛모습</h1>
+            <div id="image">
+                <div id="before" class="map">
+                    <img class='img' src="image/before.png"/>
+                    <p>복궐도</p>
+                    <p>1980년대 초에 제작된 <복궐도형>의 경복궁 모습.</p>
+                </div>
+                <div id="after" class="map">
+                    <img class='img' src="image/after.png" />
+                    <p>현황도</p>
+                    <p>146동만 제 모습을 찾음.</p>
+                </div>
+                <div id="text">
+                    1980년대 초에 제작된 <복궐도형>의 경복궁의 모습을 보면 지금과 비교할 수 없을 정도로 <br/>
+                    수많은 전각들이 가득 들어차 있다.  그러나 일제 강점기에 거의 대부분의 건물들을 철거하여 <br/>
+                    근정전 등 극히 일부 중심 건물만 남았고, 조선 총독부 청사를 지어 궁궐 자체를 가려버렸습<br/>
+                    니다.  1991년부터 복원이 진행 중이지만, 고종 재위 당시 500동에 달했던 건물 중 146동만 <br/>
+                    제 모습을 찾았다.
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
 <style>
     #main{
         margin: 0;
+    }
+    #main #mainImg{
+        width: 100%;
+    }
+
+    #main #content{
+
+    }
+
+    #main #figure{
+        width: fit-content;
+    }
+    #main #figure #image{
+        
+    }
+    #main #figure #image .map{
+        margin-left: 20px;
+        margin-right: 20px;
+        float: left;
+    }
+    #main #figure #image .img{
+        height: 540px;
+    }
+    #main #figure #image p{
+        margin: 0 0 5px 5px;
+        font-size: 15px;
+        color: #6A6A6A;
     }
 </style>
 </html>
