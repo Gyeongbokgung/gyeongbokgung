@@ -1,0 +1,81 @@
+.background {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    gap: 70px;
+}
+.mainImage {
+    width: 800px;
+    height: 600px;
+    box-shadow: 20px -12px 0px 3px gray;
+}
+.titleContainer {
+    display: flex;
+}
+.textContainer {
+    display: flex;
+    margin-top: -30px;
+}
+.boldTitle {
+    font-size: 56px;
+    font-weight: bold;
+}
+.lightTitle {
+    font-size: 56px;
+    font-weight: light;
+}
+.commonText {
+    font-size: 16px;
+}
+.underlineText {
+    font-size: 16px;
+    text-decoration: underline;
+}
+.storyboxContainer {
+    width: 800px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #362b2b;
+    border-radius: 20px;
+    padding: 50px;
+}
+.storyboxTitle {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.storyboxHr {
+    margin-top: 20px;
+    width: 100%;
+}
+.storyboxText {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 16px;
+}
+.infoContainer {
+    width: 750px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.infoP {
+    display: flex;
+    flex-direction: column;
+}
+.infoBoldText {
+    font-size: 16px;
+    font-weight: bold;
+}
+.infoLightText {
+    font-size: 16px;
+    font-weight: light;
+}
